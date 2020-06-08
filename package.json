@@ -1,0 +1,26 @@
+{
+  "name": "newshopping-ui-serve",
+  "version": "1.0.0",
+  "description": "newshopping node service",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Caichunqin/web-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^1.30.1",
+    "ejs": "^3.1.2",
+    "koa": "^2.7.0",
+    "koa-compress": "^3.0.0",
+    "koa-proxies": "^0.8.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-view": "^2.1.3",
+    "koa2-connect-history-api-fallback": "^0.1.2"
+  }
+}
