@@ -15,6 +15,7 @@ const staticPath = path.join(__dirname, './www')
 const app = new Koa()
 const router = koaRouter()
 
+// 白名单 
 app.use(historyApiFallback({ whiteList: Object.keys(proxyTarget) }))
 app.use(async (ctx, next) => {
   ctx.set("Access-Control-Allow-Origin", "*");
